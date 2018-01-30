@@ -59,18 +59,32 @@
     display: none;
 }
 
+/***** News block *****/
+
+.news_block {
+    background-color: #eee;
+}
+
+.news_block .row {
+    text-align: center;
+}
+
+.news_block img {
+    max-width: 100%;
+}
+
 
 /***** @media *****/
 
 /******************* @media (max-width: 767px) */
 
 @media(max-width: 767px) {
-    
-     /***** Call to Action block *****/
+
+    /***** Call to Action block *****/
     .cta_signup .form-group {
-         width: 70%;
-         margin: 20px auto;
-     }
+        width: 70%;
+        margin: 20px auto;
+    }
 }
 
 /******************* @media (min-width: 768px) */
@@ -99,6 +113,11 @@
         margin-bottom: 20px;
     }
 
+    /***** Call to Action block *****/
+    .desktop_first_block_news {
+        padding: 20px 100px;
+    }
+    
 }
 
 /***** END /.@media *****/
