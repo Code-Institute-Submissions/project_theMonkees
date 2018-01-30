@@ -46,6 +46,7 @@
 .cta_signup {
     text-align: center;
     padding: 30px 0;
+    background-color: #eee;
 }
 
 .cta_title {
@@ -61,20 +62,22 @@
 
 /***** News block *****/
 
-.news_block {
-    background-color: #eee;
-}
-
 .news_block .row {
     text-align: center;
 }
 
 .news_block img {
+    max-height: 300px;
     max-width: 100%;
 }
 
+/***** Video block *****/
 
-/***** @media *****/
+.video_block .row {
+    text-align: center;
+}
+
+/***************************************************** @media *****/
 
 /******************* @media (max-width: 767px) */
 
@@ -113,11 +116,21 @@
         margin-bottom: 20px;
     }
 
-    /***** Call to Action block *****/
+    /***** News block *****/
     .desktop_first_block_news {
         padding: 20px 100px;
     }
-    
+
+    .news_article_landing {
+        text-align: left;
+    }
+
+    .news_article_landing a {
+        float: right;
+    }
+
 }
+
+/** ./ @media(min-width: 768px) */
 
 /***** END /.@media *****/
