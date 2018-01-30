@@ -1,0 +1,50 @@
+/***** Navigation bar *****/
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand>img {
+    height: 100%;
+    padding: 5px 15px;
+}
+
+.nav>.nav_music {
+    display: none;
+}
+
+.nav .fa {
+    width: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    height: 100vh;
+}
+
+
+/***** @media *****/
+
+/******************* @media (min-width: 768px) */
+
+@media(min-width: 768px) {
+
+    /***** Navigation bar *****/
+    .nav>.nav_video,
+    .nav>.nav_audio,
+    nav hr,
+    .nav>li>a>span {
+        display: none;
+    }
+
+    .nav>.nav_music {
+        display: block;
+    }
+
+}
+
+/***** END /.@media *****/
