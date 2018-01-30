@@ -2,6 +2,7 @@
 
 .navbar {
     border-radius: 0;
+    margin: 0;
 }
 
 .navbar-brand {
@@ -21,13 +22,56 @@
     width: 20px;
 }
 
+/***** Jumbotron *****/
+
 .jumbotron {
     text-align: center;
-    height: 100vh;
+    height: calc(100vh - 50px);
+    margin: 0;
+}
+
+.cta_container {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+}
+
+.cta_container>button {
+    text-transform: uppercase;
+}
+
+/***** Call to Action block *****/
+
+.cta_signup {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.cta_title {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.desktop_p_signup_block {
+    display: none;
 }
 
 
 /***** @media *****/
+
+/******************* @media (max-width: 767px) */
+
+@media(max-width: 767px) {
+    
+     /***** Call to Action block *****/
+    .cta_signup .form-group {
+         width: 70%;
+         margin: 20px auto;
+     }
+}
 
 /******************* @media (min-width: 768px) */
 
@@ -43,6 +87,16 @@
 
     .nav>.nav_music {
         display: block;
+    }
+
+    /***** Call to Action block *****/
+    .mobile_p_signup_block {
+        display: none;
+    }
+
+    .desktop_p_signup_block {
+        display: block;
+        margin-bottom: 20px;
     }
 
 }
