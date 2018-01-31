@@ -28,6 +28,10 @@
     text-align: center;
     height: calc(100vh - 50px);
     margin: 0;
+    background-image: url("/assets/img/8935150_orig.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 
 .cta_container {
@@ -66,6 +70,10 @@
     text-align: center;
 }
 
+.news_block h2 {
+    margin: 20px 0;
+}
+
 .news_block img {
     max-height: 300px;
     max-width: 100%;
@@ -75,6 +83,47 @@
 
 .video_block .row {
     text-align: center;
+}
+
+.music_btn {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+}
+
+/***** Video block *****/
+
+.audio_block {
+    padding: 0 5%;
+}
+
+.audio_block .row {
+    text-align: center;
+}
+
+/***** Footer *****/
+
+footer {
+    border-top: 1px solid #dedede;
+    background-color: #f8f8f8;
+}
+
+.wrapper_footer {
+    padding: 10px 50px;
+}
+
+footer p {
+    float: left;
+    max-width: 70%;
+    color: #777;
+}
+
+.icons_footer {
+    float: right;
+}
+
+.icons_footer i {
+    padding: 0 10px;
 }
 
 /***************************************************** @media *****/
@@ -88,6 +137,17 @@
         width: 70%;
         margin: 20px auto;
     }
+
+    /***** Footer *****/
+    .wrapper_footer {
+    padding: 10px 10px;
+}
+
+footer p {
+    font-size: 0.7em;
+    max-width: 60%;
+}
+
 }
 
 /******************* @media (min-width: 768px) */
@@ -117,8 +177,10 @@
     }
 
     /***** News block *****/
+    .news_block {}
+
     .desktop_first_block_news {
-        padding: 20px 100px;
+        padding: 0 100px 20px;
     }
 
     .news_article_landing {
@@ -129,8 +191,35 @@
         float: right;
     }
 
+    /***** News block *****/
+    .landing_video {
+        height: 380px;
+        width: 80%;
+    }
+
+    .video_block h2 {
+        margin: 30px 0;
+    }
 }
 
 /** ./ @media(min-width: 768px) */
+
+/******************* @media (min-width: 960px) */
+
+@media(min-width: 960px) {}
+
+/** ./ @media(min-width: 960px) */
+
+/******************* @media (min-width: 1024px) */
+
+@media(min-width: 1024px) {
+    /***** News block *****/
+    .landing_video {
+        height: 480px;
+        width: 70%;
+    }
+}
+
+/** ./ @media(min-width: 1024px) */
 
 /***** END /.@media *****/
