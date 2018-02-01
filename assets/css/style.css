@@ -14,10 +14,6 @@
     padding: 5px 15px;
 }
 
-.nav>.nav_music {
-    display: none;
-}
-
 .nav .fa {
     width: 20px;
 }
@@ -28,10 +24,10 @@
     text-align: center;
     height: calc(100vh - 50px);
     margin: 0;
-    background-image: url("/assets/img/8935150_orig.jpg");
+    background-image: url("/assets/img/gallery/4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
 }
 
 .cta_container {
@@ -43,25 +39,6 @@
 
 .cta_container>button {
     text-transform: uppercase;
-}
-
-/***** Call to Action block *****/
-
-.cta_signup {
-    text-align: center;
-    padding: 30px 0;
-    background-color: #eee;
-}
-
-.cta_title {
-    font-size: 24px;
-    text-transform: uppercase;
-    font-weight: bold;
-    line-height: 28px;
-}
-
-.desktop_p_signup_block {
-    display: none;
 }
 
 /***** News block *****/
@@ -79,6 +56,34 @@
     max-width: 100%;
 }
 
+.news_article_landing {
+    text-align: left;
+}
+
+.news_article_landing p>a {
+    font-weight: bold;
+}
+
+/***** Call to Action block *****/
+
+.cta_signup {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #eee;
+    margin-top: 20px;
+}
+
+.cta_title {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.desktop_p_signup_block {
+    display: none;
+}
+
 /***** Video block *****/
 
 .video_block .row {
@@ -91,7 +96,7 @@
     margin: 20px auto;
 }
 
-/***** Video block *****/
+/***** Audio block *****/
 
 .audio_block {
     padding: 0 5%;
@@ -109,12 +114,12 @@ footer {
 }
 
 .wrapper_footer {
-    padding: 10px 50px;
+    padding: 10px 0;
 }
 
 footer p {
     float: left;
-    max-width: 70%;
+    max-width: 65%;
     color: #777;
 }
 
@@ -126,11 +131,89 @@ footer p {
     padding: 0 10px;
 }
 
+/******************* Video Page ***/
+
+.video_page_unit {
+    margin-top: 30px;
+}
+
+.video_page_unit .video-descr {
+    text-align: left;
+    padding: 0 5%;
+}
+
+/******************* Photo Page ***/
+
+.photos_block {
+    text-align: center;
+}
+
+.lightbox img {
+    max-width: 100%;
+    height: auto;
+    padding: 5px 0;
+}
+
+.photos_page_img_wrapper {
+    width: 100%;
+}
+
+/******************* Tickets Page ***/
+
+.tickets_page {
+    text-align: center;
+}
+
+.tickets_page_offer_block_date,
+.tickets_page_offer_block_place {
+    display: inline-block;
+}
+
+.tickets_page_offer_block {
+    padding: 15px 9px;
+    text-transform: uppercase;
+}
+
+.tickets_page_offer_block>div {
+    border-top: 1px solid #eee;
+}
+
+.tickets_page_offer_block_date {
+    color: #777;
+    margin-top: 6px;
+    padding-right: 15px;
+    border-right: 1px solid #eee;
+}
+
+.tickets_page_country {
+    font-size: 20px;
+}
+
+.tickets_page_country>span {
+    font-size: 15px;
+}
+
+.tickets_page_offer_block_place {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.tickets_page_place {
+    margin-top: -5px;
+}
+
+.tickets_page_offer_block_btn {
+    margin: 10px auto;
+    display: block;
+    width: 55%;
+
+}
+
 /***************************************************** @media *****/
 
 /******************* @media (max-width: 767px) */
 
-@media(max-width: 767px) {
+@media(max-width: 767px) and (min-width: 480px) {
 
     /***** Call to Action block *****/
     .cta_signup .form-group {
@@ -140,14 +223,41 @@ footer p {
 
     /***** Footer *****/
     .wrapper_footer {
-    padding: 10px 10px;
-}
+        padding: 10px 10px;
+    }
 
-footer p {
-    font-size: 0.7em;
-    max-width: 60%;
-}
+    footer p {
+        font-size: 0.7em;
+        max-width: 60%;
+    }
 
+    /******************* Photo Page ***/
+    .photos_page_img_wrapper {
+        padding: 0 6px;
+        float: left;
+        width: 49.99%;
+    }
+
+    /******************* Tickets Page ***/
+    .tickets_page_offer_block {
+        text-align: left;
+        padding: 15px 40px;
+    }
+
+    .tickets_page_offer_block_btn {
+        margin-left: 20px;
+        display: inline-block;
+        width: auto;
+        float: right;
+    }
+
+    .tickets_page_offer_block_place>p {
+        margin-top: 20px;
+    }
+
+    .tickets_page_offer_block_btn {
+        margin-top: 30px;
+    }
 }
 
 /******************* @media (min-width: 768px) */
@@ -155,15 +265,22 @@ footer p {
 @media(min-width: 768px) {
 
     /***** Navigation bar *****/
-    .nav>.nav_video,
-    .nav>.nav_audio,
     nav hr,
-    .nav>li>a>span {
+    .nav_soc_icons>li>a>span {
         display: none;
     }
 
-    .nav>.nav_music {
-        display: block;
+    nav {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        float: none;
+        display: inline-block;
+    }
+
+    .navbar ul {
+        height: 40px;
     }
 
     /***** Call to Action block *****/
@@ -177,8 +294,6 @@ footer p {
     }
 
     /***** News block *****/
-    .news_block {}
-
     .desktop_first_block_news {
         padding: 0 100px 20px;
     }
@@ -187,7 +302,7 @@ footer p {
         text-align: left;
     }
 
-    .news_article_landing a {
+    .news_article_landing .news_btn {
         float: right;
     }
 
@@ -200,6 +315,37 @@ footer p {
     .video_block h2 {
         margin: 30px 0;
     }
+
+
+    /******************* Video Page ***/
+    .video_page_unit .video-descr {
+        padding: 0 10%;
+    }
+
+    /******************* Photo Page ***/
+    .photos_page_img_wrapper {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+    }
+
+    /******************* Tickets Page ***/
+    .tickets_page_offer_block {
+        text-align: left;
+        padding: 15px 40px;
+    }
+
+    .tickets_page_offer_block_place>p {
+        margin-top: 20px;
+    }
+
+    .tickets_page_offer_block_btn {
+        margin-top: 30px;
+        float: right;
+        display: inline-block;
+        width: auto;
+    }
+
 }
 
 /** ./ @media(min-width: 768px) */
@@ -217,6 +363,15 @@ footer p {
     .landing_video {
         height: 480px;
         width: 70%;
+    }
+
+    .photos_block {
+        padding: 0 150px;
+    }
+
+    /******************* Video Page ***/
+    .video_page_unit .video-descr {
+        padding: 0 15%;
     }
 }
 
