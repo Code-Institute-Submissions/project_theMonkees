@@ -31,7 +31,7 @@ body {
     text-align: center;
     height: calc(100vh - 50px);
     margin: 0;
-    background-image: url("/assets/img/gallery/4.jpg");
+    background-image: url("https://madenden.github.io/project_theMonkees/assets/img/gallery/4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -316,6 +316,11 @@ main {
 
     /***** Call to Action block *****/
     .cta_signup .form-group {
+        margin: 20px auto;
+        max-width: 70%;
+    }
+    
+    .contacts_page .form-group {
         width: 70%;
         margin: 20px auto;
     }
