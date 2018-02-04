@@ -1,3 +1,10 @@
+html,
+body {
+    height: 100%;
+}
+
+
+
 /***** Navigation bar *****/
 
 .navbar {
@@ -111,6 +118,9 @@
 footer {
     border-top: 1px solid #dedede;
     background-color: #f8f8f8;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 .wrapper_footer {
@@ -206,14 +216,103 @@ footer p {
     margin: 10px auto;
     display: block;
     width: 55%;
+}
 
+
+main {
+    min-height: calc(100vh - 87px);
+}
+
+
+/******************* Contacts Page ***/
+
+.contacts_page ul {
+    list-style: none;
+    padding: 20px 0;
+}
+
+.contacts_page li {
+    padding: 15px;
+}
+
+.contacts_page_contacts .fa {
+    font-size: 1.7em;
+    padding-right: 5px;
+}
+
+.contacts_page_contacts a {
+    font-size: 1.2em;
+}
+
+.contacts_page {
+    text-align: center;
+}
+
+.contacts_page_form p {
+    text-align: left;
+}
+
+
+/******************* History Page ***/
+
+.history_page h1,
+.history_page h3,
+.image,
+.member .image {
+    text-align: center;
+}
+
+.history_page h1,
+.history_page h3 {
+    margin-bottom: 20px;
+}
+
+.history_page .band_members h3 {
+    margin-top: 20px;
+}
+
+.history_page .thumbnail {
+    max-width: 320px;
+    float: none;
+    margin: 10px auto 0;
+}
+
+.history_page .headquarters {
+    margin-top: 0;
+}
+
+.band_members .image {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.history_page_band_story {
+    padding: 20px 20px 0;
+}
+
+.biography {
+    padding: 0 20px 10px;
+}
+
+.biography {
+    border-bottom: 1px solid #eee;
+}
+
+.biography .name {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 0px;
+}
+
+.biography .age {
+    color: #777;
 }
 
 /***************************************************** @media *****/
 
-/******************* @media (max-width: 767px) */
+/******************* @media (min-width: 480px) */
 
-@media(max-width: 767px) and (min-width: 480px) {
+@media (min-width: 480px) {
 
     /***** Call to Action block *****/
     .cta_signup .form-group {
@@ -257,6 +356,24 @@ footer p {
 
     .tickets_page_offer_block_btn {
         margin-top: 30px;
+    }
+
+    /******************* Contacts Page ***/
+    .contacts_page_form {
+        max-width: 60%;
+        float: none;
+        margin: auto;
+    }
+
+
+    /******************* History Page ***/
+    .album_block {
+        display: inline-block;
+        float: none;
+        width: auto;
+    }
+    .top_albums {
+        text-align: center;
     }
 }
 
@@ -346,6 +463,23 @@ footer p {
         width: auto;
     }
 
+
+    /******************* Contacts Page ***/
+    .contacts_page_form {
+        float: left;
+        padding-bottom: 20px;
+    }
+
+    /******************* History Page ***/
+    .wrap_band_story .image,
+    .band_members .image {
+        float: left;
+        margin-right: 20px;
+    }
+    
+    .band_members .image {
+        padding-top: 0;
+    }
 }
 
 /** ./ @media(min-width: 768px) */

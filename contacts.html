@@ -32,10 +32,10 @@
                         <li><a href="history.html">History</a></li>
                         <li><a href="news.html">News</a></li>
                         <li class=""><a href="video.html">Video</a></li>
-                        <li class="active"><a href="audio.html">Audio</a></li>
+                        <li class=""><a href="audio.html">Audio</a></li>
                         <li class=""><a href="photos.html">Photos</a></li>
                         <li><a href="tickets.html">Tickets</a></li>
-                        <li><a href="contacts.html">Contacts</a></li>
+                        <li class="active"><a href="contacts.html">Contacts</a></li>
                     </ul>
                     <hr>
                     <ul class="nav navbar-nav navbar-right nav_soc_icons">
@@ -48,19 +48,38 @@
             <!-- ./container-fluid -->
         </div>
     </header>
-    <main>
-        <section class="container-fluid audio_block">
+    <main class="contacts">
+        <div class="container contacts_page">
+            <h1>Contacts</h1>
             <div class="row">
-                <h2>Audio</h2>
-                <div class="col-xs-12">
-                    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/196367992&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
-                    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/38280639&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
-                    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/196369767&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
-                    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/216539825&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
-                    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/216539896&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+                <div class="col-xs-12 col-sm-6 contacts_page_form">
+                    <h3>Still want to book your favorite band?</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio explicabo nihil numquam recusandae nostrum quasi blanditiis cumque harum cum, eos beatae asperiores hic nemo ad placeat quas necessitatibus eum. Doloribus.</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputName2">Full Name</label>
+                            <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Message</label>
+                            <textarea class="form-control" id="exampleInputEmail1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-default">Send Request</button>
+                    </form>
+                </div>
+                <div class="col-xs-12 col-sm-6 contacts_page_contacts">
+                    <ul>
+                        <li><a href="tel:"><i class="fa fa-phone"></i> +353 85 00 111</a></li>
+                        <li><a href="whatsapp://send?text="><i class="fa fa-whatsapp"></i> +44 20 545 565</li>
+                        <li class=><a href="mailto:"><i class="fa fa-envelope"></i> info@themonkees.com</li>
+                    </ul>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
     <footer>
         <div class="wrapper_footer">
