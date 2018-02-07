@@ -187,7 +187,7 @@ footer p {
 
 .tickets_page_layer_bg {
     content: "";
-    background: url("/assets/img/4938372aeaf33345a_0.jpg");
+    background: url("https://madenden.github.io/project_theMonkees/assets/img/4938372aeaf33345a_0.jpg");
     background-attachment: fixed;
     background-position: 0 65%;
     opacity: 0.1;
