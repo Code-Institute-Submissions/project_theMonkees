@@ -1,8 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800');
+
 html,
 body {
     height: 100%;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+h2,
+h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 
 /***** Navigation bar *****/
@@ -29,7 +47,7 @@ body {
 
 .jumbotron {
     text-align: center;
-    height: calc(100vh - 50px);
+    height: 480px;
     margin: 0;
     background-image: url("https://madenden.github.io/project_theMonkees/assets/img/gallery/4.jpg");
     background-size: cover;
@@ -52,10 +70,6 @@ body {
 
 .news_block .row {
     text-align: center;
-}
-
-.news_block h2 {
-    margin: 20px 0;
 }
 
 .news_block img {
@@ -107,6 +121,7 @@ body {
 
 .audio_block {
     padding: 0 5%;
+    background-color: #eee;
 }
 
 .audio_block .row {
@@ -170,6 +185,20 @@ footer p {
 
 /******************* Tickets Page ***/
 
+.tickets_page_layer_bg {
+    content: "";
+    background: url("/assets/img/4938372aeaf33345a_0.jpg");
+    background-attachment: fixed;
+    background-position: 0 65%;
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
 .tickets_page {
     text-align: center;
 }
@@ -180,19 +209,19 @@ footer p {
 }
 
 .tickets_page_offer_block {
-    padding: 15px 9px;
+    padding: 0 9px 15px;
     text-transform: uppercase;
 }
 
 .tickets_page_offer_block>div {
-    border-top: 1px solid #eee;
+    border-top: 1px solid #777;
 }
 
 .tickets_page_offer_block_date {
     color: #777;
     margin-top: 6px;
     padding-right: 15px;
-    border-right: 1px solid #eee;
+    border-right: 1px solid #777;
 }
 
 .tickets_page_country {
@@ -252,6 +281,22 @@ main {
     text-align: left;
 }
 
+.contacts_form_checkbox,
+.contacts_form_checkbox p{
+    text-align: center;
+}
+
+.contacts_form_checkbox p {
+    font-weight: bold;
+}
+
+.form_radio {
+    display: inline-block;
+    text-align: left;
+    line-height: 30px;
+}
+
+
 
 /******************* History Page ***/
 
@@ -260,15 +305,6 @@ main {
 .image,
 .member .image {
     text-align: center;
-}
-
-.history_page h1,
-.history_page h3 {
-    margin-bottom: 20px;
-}
-
-.history_page .band_members h3 {
-    margin-top: 20px;
 }
 
 .history_page .thumbnail {
@@ -308,6 +344,14 @@ main {
     color: #777;
 }
 
+.desktop_first_block_news {
+    padding-bottom: 35px;
+}
+
+.news_article_landing {
+    border-bottom: 1px solid #eee;
+}
+
 /***************************************************** @media *****/
 
 /******************* @media (min-width: 480px) */
@@ -319,9 +363,9 @@ main {
         margin: 20px auto;
         max-width: 70%;
     }
-    
+
     .contacts_page .form-group {
-        width: 70%;
+        max-width: 345px;
         margin: 20px auto;
     }
 
@@ -365,7 +409,6 @@ main {
 
     /******************* Contacts Page ***/
     .contacts_page_form {
-        max-width: 60%;
         float: none;
         margin: auto;
     }
@@ -405,6 +448,11 @@ main {
         height: 40px;
     }
 
+    /***** Jumbotron block *****/
+    .jumbotron {
+        height: calc(100vh - 50px);
+    }
+
     /***** Call to Action block *****/
     .mobile_p_signup_block {
         display: none;
@@ -415,9 +463,13 @@ main {
         margin-bottom: 20px;
     }
 
+    .cta_signup form .email_input {
+        margin: 0 15px;
+    }
+
     /***** News block *****/
     .desktop_first_block_news {
-        padding: 0 100px 20px;
+        padding: 0 100px 35px;
     }
 
     .news_article_landing {
@@ -454,7 +506,7 @@ main {
     /******************* Tickets Page ***/
     .tickets_page_offer_block {
         text-align: left;
-        padding: 15px 40px;
+        padding: 0 40px 15px;
     }
 
     .tickets_page_offer_block_place>p {
@@ -481,7 +533,7 @@ main {
         float: left;
         margin-right: 20px;
     }
-    
+
     .band_members .image {
         padding-top: 0;
     }
@@ -489,9 +541,13 @@ main {
 
 /** ./ @media(min-width: 768px) */
 
-/******************* @media (min-width: 960px) */
+@media(min-width: 768px) and (max-width: 842px) {
+    .nav_soc_icons {
+        display: none;
+    }
+}
 
-@media(min-width: 960px) {}
+/******************* @media (min-width: 960px) */
 
 /** ./ @media(min-width: 960px) */
 
