@@ -85,6 +85,10 @@ h3 {
     font-weight: bold;
 }
 
+.news_block article:last-child .news_article_landing{
+    border: none;
+}
+
 /***** Call to Action block *****/
 
 .cta_signup {
