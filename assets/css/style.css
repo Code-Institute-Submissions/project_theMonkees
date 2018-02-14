@@ -89,6 +89,10 @@ h3 {
     border: none;
 }
 
+.main_page .news_article_landing {
+    border: none;
+}
+
 /***** Call to Action block *****/
 .cta_signup .form-inline {
     padding-left: 20px;
