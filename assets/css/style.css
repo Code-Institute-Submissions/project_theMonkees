@@ -90,6 +90,10 @@ h3 {
 }
 
 /***** Call to Action block *****/
+.cta_signup .form-inline {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 .cta_signup {
     text-align: center;
