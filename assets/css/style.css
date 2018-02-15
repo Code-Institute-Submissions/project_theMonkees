@@ -196,19 +196,13 @@ footer p {
 }
 
 /******************* Tickets Page ***/
+main .tickets_page {
+    background: url("/assets/img/4938372aeaf33345a_0.jpg");
+}
 
-.tickets_page_layer_bg {
-    content: "";
-    background: url("https://madenden.github.io/project_theMonkees/assets/img/4938372aeaf33345a_0.jpg");
-    background-attachment: fixed;
-    background-position: 0 65%;
-    opacity: 0.1;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
+
+.tickets_page_offer_block {
+    text-align: left;
 }
 
 .tickets_page {
@@ -232,7 +226,7 @@ footer p {
 .tickets_page_offer_block_date {
     color: #777;
     margin-top: 6px;
-    padding-right: 15px;
+    padding-right: 10px;
     border-right: 1px solid #777;
 }
 
@@ -246,7 +240,7 @@ footer p {
 
 .tickets_page_offer_block_place {
     text-align: left;
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
 .tickets_page_place {
