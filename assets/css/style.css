@@ -237,11 +237,11 @@ footer p {
 }
 
 .tickets_page_country {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .tickets_page_country>span {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .tickets_page_offer_block_place {
@@ -435,6 +435,19 @@ main {
     .top_albums {
         text-align: center;
     }
+}
+
+/******************* @media (min-width: 640px) */
+
+@media(min-width: 640px) {
+    .tickets_page_country {
+        font-size: 20px;
+    }
+
+    .tickets_page_country>span {
+        font-size: 15px;
+    }
+
 }
 
 /******************* @media (min-width: 768px) */
