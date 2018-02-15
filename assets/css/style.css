@@ -196,16 +196,12 @@ footer p {
 }
 
 /******************* Tickets Page ***/
-main .tickets_page {
-    background: url("https://madenden.github.io/project_theMonkees/assets/img/4938372aeaf33345a_0.jpg");
-}
-
-
 .tickets_page_offer_block {
     text-align: left;
 }
 
 .tickets_page {
+    background: url("https://madenden.github.io/project_theMonkees/assets/img/4938372aeaf33345a_0.jpg");
     text-align: center;
 }
 
