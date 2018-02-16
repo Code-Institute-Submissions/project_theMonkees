@@ -26,7 +26,7 @@ Also, the site share their music and publicise availability to perform at events
     
 ## Functionality
 
-### [Home page](https://madenden.github.io/project_theMonkees/)
+### Home page
 
  #### Page contain:
  
@@ -36,27 +36,27 @@ Also, the site share their music and publicise availability to perform at events
 4. Video screen - Brief preview of [Video page](https://madenden.github.io/project_theMonkees/video.html)
 4. Audio screen - Brief preview of [Audio page](https://madenden.github.io/project_theMonkees/audio.html)
  
-### [History page](https://madenden.github.io/project_theMonkees/history.html)
+### History page
 
 Current page describe history of the band, introduce list of albums and band members
  
-### [News page](https://madenden.github.io/project_theMonkees/news.html)
+### News page
 
 On this page you will find all the latest news and events that related band life
     
-### [Video page](https://madenden.github.io/project_theMonkees/video.html) and [Audio page](https://madenden.github.io/project_theMonkees/audio.html)
+### Video page
 
 Video page share video clips and audio page share mp3 music
     
-### [Photos page](https://madenden.github.io/project_theMonkees/photos.html)
+### Photos page
 
 On photos page you will find photo gallery 
     
-### [Tickets page](https://madenden.github.io/project_theMonkees/tickets.html)
+### Tickets page
 
 Tickets page is the place where you can buy tickets for concert or events relatet the band
 
-### [Contacts page](https://madenden.github.io/project_theMonkees/contacts.html)
+### Contacts page
 
 Here you can find contact details and form to request privant concert or other events
 
