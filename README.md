@@ -8,7 +8,7 @@
 
 ### Site Map
 
-    * [Home](https://madenden.github.io/project_theMonkees/)
+    * [Home](https://madenden.github.io/project_theMonkees/index.html)
     * [History](https://madenden.github.io/project_theMonkees/history.html)
     * [News](https://madenden.github.io/project_theMonkees/news.html)
     * [Video](https://madenden.github.io/project_theMonkees/video.html)
