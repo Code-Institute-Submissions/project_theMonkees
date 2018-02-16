@@ -48,15 +48,15 @@ On this page you will find all the latest news and events that related band life
 
 Video page share video clips and audio page share mp3 music
     
-### [Photos](https://madenden.github.io/project_theMonkees/photos.html)
+### [Photos page](https://madenden.github.io/project_theMonkees/photos.html)
 
 On photos page you will find photo gallery 
     
-### [Tickets](https://madenden.github.io/project_theMonkees/tickets.html)
+### [Tickets page](https://madenden.github.io/project_theMonkees/tickets.html)
 
 Tickets page is the place where you can buy tickets for concert or events relatet the band
 
-### [Contacts](https://madenden.github.io/project_theMonkees/contacts.html)
+### [Contacts page](https://madenden.github.io/project_theMonkees/contacts.html)
 
 Here you can find contact details and form to request privant concert or other events
 
