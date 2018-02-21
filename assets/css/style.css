@@ -49,7 +49,7 @@ h3 {
     text-align: center;
     height: 480px;
     margin: 0;
-    background-image: url("https://madenden.github.io/project_theMonkees/assets/img/gallery/4.jpg");
+    background-image: url("../img/gallery/4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -85,7 +85,7 @@ h3 {
     font-weight: bold;
 }
 
-.news_block article:last-child .news_article_landing{
+.news_block article:last-child .news_article_landing {
     border: none;
 }
 
@@ -94,6 +94,7 @@ h3 {
 }
 
 /***** Call to Action block *****/
+
 .cta_signup .form-inline {
     padding-left: 20px;
     padding-right: 20px;
@@ -125,7 +126,7 @@ h3 {
 
 .music_btn {
     display: block;
-    width: 150px;
+    width: 165px;
     margin: 20px auto;
 }
 
@@ -196,12 +197,13 @@ footer p {
 }
 
 /******************* Tickets Page ***/
+
 .tickets_page_offer_block {
     text-align: left;
 }
 
 .tickets_page {
-    background: url("https://madenden.github.io/project_theMonkees/assets/img/4938372aeaf33345a_0.jpg");
+    background: url("../img/4938372aeaf33345a_0.jpg");
     text-align: center;
 }
 
@@ -284,7 +286,7 @@ main {
 }
 
 .contacts_form_checkbox,
-.contacts_form_checkbox p{
+.contacts_form_checkbox p {
     text-align: center;
 }
 
@@ -495,7 +497,7 @@ main {
         float: right;
     }
 
-    /***** News block *****/
+    /***** Video block *****/
     .landing_video {
         height: 380px;
         width: 80%;
@@ -505,10 +507,20 @@ main {
         margin: 30px 0;
     }
 
+    /***** Audio block *****/
+    .audio_block iframe {
+        margin: 0 20px;
+    }
+
 
     /******************* Video Page ***/
     .video_page_unit .video-descr {
         padding: 0 10%;
+    }
+    
+    /******************* Audio Page ***/    
+    .audio-page iframe {
+        margin: 15px 20px;
     }
 
     /******************* Photo Page ***/
