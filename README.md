@@ -26,6 +26,8 @@ Also, the site share their music and publicise availability to perform at events
     
 ## Functionality
 
+The website tested using different browsers, and devices with different screen sizes and deployed to [Github Pages](https://madenden.github.io/project_theMonkees/).
+
 ### Home page
 
  #### Page contain:
